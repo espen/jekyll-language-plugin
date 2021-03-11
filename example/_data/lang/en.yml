@@ -24,8 +24,8 @@ index:
   custom_loader_test: Test string
   posts: Posts
 about:
-  slug: about-us
   title: About Us
+  slug: fock
 post:
   published: Published
   date_format: '%B %d, %Y'

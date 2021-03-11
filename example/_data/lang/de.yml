@@ -17,12 +17,12 @@ index:
     Diese Seite ist so einfach wie möglich gestaltet, damit der Umgang mit dem
     Plugin effektiv demonstriert werden kann. Weitere Informationen, wie das
     Plugin zu verwenden ist finden sich auf GitHub.
-  custom_loader: Benutzerdefinierter Datenlader
+  custom_loader: 'Benutzerdefinierter Datenlader check: <a href="https://google.com">google</a>'
   custom_loader_test: Testzeichenkette
   posts: Beiträge
 about:
+  title: Über Uns <a href="https://google.com">google</a>
   slug: ueber-uns
-  title: Über Uns
 post:
   published: Veröffentlicht
   date_format: '%d. %B %Y'
