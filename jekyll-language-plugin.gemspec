@@ -16,8 +16,8 @@ Gem::Specification.new do |spec|
   spec.files         = ["lib/jekyll-language-plugin.rb", *Dir["lib/**/*.rb"], *Dir["data/**/*.yml"], "README.md", "LICENSE.md"]
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency 'jekyll', '~> 3.7.3'
-  spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency 'jekyll', '~> 4'
+  spec.add_development_dependency "rspec", "~> 3"
   spec.add_development_dependency "rake"
-  spec.add_development_dependency "bundler", "~> 1.6"
+  spec.add_development_dependency "bundler", "~> 2"
 end
