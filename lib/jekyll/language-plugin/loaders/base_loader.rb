@@ -36,7 +36,11 @@ module Jekyll
             return nil unless hash.key?(key)
             hash = hash[key]
           end
-          hash
+          if hash.is_a?(Hash)
+            hash.sort_by {|k,v|k == 'slug' ? 0 : 1}.to_h
+          else
+            hash
+          end
         end
 
         def resolve_dot_notation(keys)
